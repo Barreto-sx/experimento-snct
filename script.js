@@ -29,12 +29,12 @@ function updatePh() {
   const state = ph < 7 ? 'ácido' : ph > 7 ? 'básico' : 'neutro';
   phNumber.textContent = ph.toFixed(1);
   phState.textContent = `Meio ${state}`;
-  slider.setAttribute('aria-valuetext', `${ph.toFixed(1)} — meio ${state}`);
+  slider.setAttribute('aria-valuetext', `${ph.toFixed(1)}, meio ${state}`);
   phExplanation.textContent = ph < 7
-    ? 'Valores abaixo de 7 indicam um meio ácido. A acidez pode favorecer a desmineralização dos dentes.'
+    ? 'pH abaixo de 7 indica meio ácido. Em contato frequente, a acidez pode contribuir para a perda de minerais dos dentes.'
     : ph > 7
-      ? 'Valores acima de 7 indicam um meio básico. O pH influencia a atividade de microrganismos e o equilíbrio da boca.'
-      : 'Em condições usuais, pH 7 é neutro. A saliva ajuda a proteger a boca e a equilibrar seu ambiente químico.';
+      ? 'pH acima de 7 indica meio básico. Variações de pH podem interferir na atividade dos microrganismos da boca.'
+      : 'Em geral, pH 7 é neutro. A saliva ajuda a proteger os dentes e a manter o equilíbrio químico da boca.';
 }
 slider?.addEventListener('input', updatePh);
 updatePh();
