@@ -865,45 +865,45 @@ a { text-decoration: none; }
 .conclusion svg { color: var(--mint); flex-shrink: 0; }
 .extra-experiments { grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 28px; display: grid; }
 .extra-item { background: var(--secondary); border: 1px solid var(--border); border-radius: 6px; gap: 20px; padding: 24px; display: flex; }
-.extra-item > svg { color: var(--primary); flex-shrink: 0; width: 30px; height: 30px; }
 .extra-item h3 { margin: 0px 0px 8px; font-size: 18px; }
-.extra-item p { color: var(--muted-foreground); margin: 0px; font-size: 12px; }
+.extra-item p { color: var(--muted-foreground); margin: 8px 0px 0px; font-size: 12px; }
 .videos-section { background: var(--ink); color: var(--on-ink); }
 .videos-section .eyebrow { color: var(--mint); }
+.videos-section .section-heading { display: block; margin-bottom: 12px; }
 .videos-section .section-heading > p { color: var(--on-ink); }
+.videos-section .section-intro { max-width: 760px; color: var(--on-ink); margin: 0px 0px 28px; font-size: 15px; line-height: 1.7; }
 @supports (color: color-mix(in lab, red, red)) {
-  .videos-section .section-heading > p { color: color-mix(in oklab,var(--on-ink) 65%,transparent); }
+  .videos-section .section-intro { color: color-mix(in oklab,var(--on-ink) 75%,transparent); }
 }
-.video-grid { grid-template-columns: repeat(3, 1fr); gap: 24px; display: grid; }
-.video-item { color: var(--on-ink); display: block; }
-.video-cover { background: var(--secondary); place-items: center; height: 170px; display: grid; position: relative; }
-@supports (color: color-mix(in lab, red, red)) {
-  .video-cover { background: color-mix(in oklab,var(--secondary) 12%,var(--ink)); }
-}
-.video-cover { border-radius: 5px; overflow: hidden; }
-.video-cover > svg { width: 92px; height: 92px; color: var(--primary); }
-@supports (color: color-mix(in lab, red, red)) {
-  .video-cover > svg { color: color-mix(in oklab,var(--primary) 65%,var(--secondary)); }
-}
-.video-cover > svg { stroke-width: 1px; transition: transform 0.3s; }
-.video-item:hover .video-cover > svg { transform: scale(1.1); }
-.video-item:nth-child(2) .video-cover > svg { color: var(--mint); }
-.video-play { background: var(--primary); border-radius: 50%; place-items: center; width: 34px; height: 34px; display: grid; position: absolute; bottom: 16px; right: 16px; }
-.video-play svg { width: 14px; }
-.video-category { color: var(--mint); text-transform: uppercase; letter-spacing: 1px; margin-top: 20px; font-size: 9px; }
-.video-item h3 { margin: 8px 0px 12px; font-size: 17px; line-height: 1.4; }
-.video-link { color: var(--on-ink); align-items: center; gap: 8px; display: flex; }
-@supports (color: color-mix(in lab, red, red)) {
-  .video-link { color: color-mix(in oklab,var(--on-ink) 60%,transparent); }
-}
-.video-link { font-size: 11px; }
+.video-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; display: grid; }
+.video-list { color: var(--on-ink); margin: 0px 0px 24px; padding-left: 20px; display: grid; gap: 10px; }
+.video-list li { color: rgba(255, 255, 255, 0.85); line-height: 1.6; }
+.video-item { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px; padding: 12px; color: var(--on-ink); display: flex; flex-direction: column; gap: 12px; }
+.video-item iframe { background: var(--secondary); border-radius: 12px; aspect-ratio: 16 / 9; width: 100%; height: auto; border: 0; display: block; }
+.video-category { color: var(--mint); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; font-size: 9px; }
+.video-item h3 { margin: 0px; font-size: 17px; line-height: 1.4; }
+.video-item p { color: rgba(255, 255, 255, 0.8); margin: 0px 0px 0px; font-size: 12px; line-height: 1.7; }
 .team-top { grid-template-columns: 1fr 1fr; gap: 70px; display: grid; }
 .team-top p { color: var(--muted-foreground); font-size: 13px; }
 .teachers { font-size: 13px; }
 .teachers strong { text-transform: uppercase; letter-spacing: 1px; color: var(--primary); margin-bottom: 16px; font-size: 10px; display: block; }
 .teacher { margin-bottom: 12px; }
 .teacher span { color: var(--muted-foreground); font-size: 11px; display: block; }
-.team-names { flex-wrap: wrap; gap: 12px 26px; margin-top: 32px; padding-top: 28px; font-size: 12px; display: flex; }
+.team-names {
+  list-style: disc;
+  padding-left: 1.4rem;
+  margin-top: 32px;
+  padding-top: 28px;
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px 26px;
+}
+
+.team-names li {
+  list-style: disc;
+  color: var(--muted-foreground);
+}
 .footer { color: var(--muted-foreground); padding-block: 24px; font-size: 11px; }
 .footer-inner { justify-content: space-between; align-items: center; gap: 20px; display: flex; }
 .footer a { color: var(--primary); align-items: center; gap: 8px; display: flex; }
