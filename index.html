@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Biologia + Química | Mau Hálito, pH e o Sopro Mágico — IFBA
+  </title>
+  <meta content="Intervenção prática do IFBA Campus Camaçari: saúde bucal, pH e respiração. 7 de outubro de 2026, das 13h às 17h." name="description"/>
+  <meta content="Biologia + Química — Ciência que acontece em você" property="og:title"/>
+  <meta content="Experimentos sobre o pH da boca, respiração e o Sopro Mágico no IFBA Campus Camaçari." property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="styles.css" rel="stylesheet"/>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body>
+  <header class="site-header">
+   <div class="container header-inner">
+    <a aria-label="Biologia + Química — início" class="brand" href="#inicio">
+     <svg aria-hidden="true" class="lucide lucide-atom brand-mark" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="12" cy="12" r="1">
+      </circle>
+      <path d="M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z">
+      </path>
+      <path d="M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5Z">
+      </path>
+     </svg>
+     <div>
+      <div class="brand-name">
+       Biologia
+       <span class="text-primary">
+        +
+       </span>
+       Química
+      </div>
+      <div class="brand-sub">
+       IFBA · CAMPUS CAMAÇARI
+      </div>
+     </div>
+    </a>
+    <nav aria-label="Navegação principal" class="desktop-nav">
+     <a href="#proposta">
+      A proposta
+     </a>
+     <a href="#ciencia">
+      A ciência
+     </a>
+     <a href="#experimentos">
+      Experimentos
+     </a>
+     <a href="#videos">
+      Vídeos
+     </a>
+     <a href="#equipe">
+      Nossa equipe
+     </a>
+     <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-8 rounded-md px-3 text-xs" href="#evento">
+      Visite o estande
+      <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7 7h10v10">
+       </path>
+       <path d="M7 17 17 7">
+       </path>
+      </svg>
+     </a>
+    </nav>
+    <button aria-controls="mobile-navigation" aria-expanded="false" aria-label="Abrir menu" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 w-9 mobile-menu" id="menu-toggle">
+     <svg aria-hidden="true" class="lucide lucide-menu" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 5h16">
+      </path>
+      <path d="M4 12h16">
+      </path>
+      <path d="M4 19h16">
+      </path>
+     </svg>
+    </button>
+    <nav aria-label="Navegação móvel" class="mobile-nav" hidden="" id="mobile-navigation">
+     <a href="#proposta">
+      A proposta
+     </a>
+     <a href="#ciencia">
+      A ciência
+     </a>
+     <a href="#experimentos">
+      Experimentos
+     </a>
+     <a href="#videos">
+      Vídeos
+     </a>
+     <a href="#equipe">
+      Nossa equipe
+     </a>
+     <a href="#evento">
+      Visite o estande
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <section class="hero" id="inicio">
+    <img alt="Vidrarias de laboratório com soluções azuis e verdes e tiras indicadoras de pH" class="hero-image" fetchpriority="high" height="1024" src="assets/science-lab.jpg" width="1536"/>
+    <div class="container hero-inner">
+     <div class="eyebrow">
+      <span class="eyebrow-line">
+      </span>
+      23ª Semana de Ciência e Tecnologia · Ciências Delas
+     </div>
+     <h1>
+      Mau hálito, pH da boca
+      <br/>
+      e o
+      <span>
+       Sopro Mágico.
+      </span>
+     </h1>
+     <p class="hero-copy">
+      Intervenção prática Biologia + Química.
+      <br/>
+      Descubra como a ciência conecta o equilíbrio químico ao seu próprio corpo.
+     </p>
+     <div class="hero-actions">
+      <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-10 rounded-md px-8" href="#experimentos">
+       Explore os experimentos
+       <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 12h14">
+        </path>
+        <path d="m12 5 7 7-7 7">
+        </path>
+       </svg>
+      </a>
+      <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-on-ink/30 bg-transparent text-on-ink hover:bg-on-ink/10 h-10 rounded-md px-8" href="#ciencia">
+       Conheça a ciência
+       <svg aria-hidden="true" class="lucide lucide-arrow-down" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 5v14">
+        </path>
+        <path d="m19 12-7 7-7-7">
+        </path>
+       </svg>
+      </a>
+     </div>
+     <div class="hero-footnote">
+      <svg aria-hidden="true" class="lucide lucide-microscope" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+       <path d="M6 18h8">
+       </path>
+       <path d="M3 22h18">
+       </path>
+       <path d="M14 22a7 7 0 1 0 0-14h-1">
+       </path>
+       <path d="M9 14h2">
+       </path>
+       <path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z">
+       </path>
+       <path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3">
+       </path>
+      </svg>
+      <span>
+       Ciência do dia a dia. Investigação na prática. Conhecimento para todos.
+      </span>
+     </div>
+    </div>
+   </section>
+   <section aria-label="Informações do evento" class="event-strip" id="evento">
+    <div class="container event-inner">
+     <div class="event-item">
+      <svg aria-hidden="true" class="lucide lucide-calendar-days" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M8 2v4">
+       </path>
+       <path d="M16 2v4">
+       </path>
+       <rect height="18" rx="2" width="18" x="3" y="4">
+       </rect>
+       <path d="M3 10h18">
+       </path>
+       <path d="M8 14h.01">
+       </path>
+       <path d="M12 14h.01">
+       </path>
+       <path d="M16 14h.01">
+       </path>
+       <path d="M8 18h.01">
+       </path>
+       <path d="M12 18h.01">
+       </path>
+       <path d="M16 18h.01">
+       </path>
+      </svg>
+      <div>
+       <div class="event-label">
+        Quando
+       </div>
+       <div class="event-value">
+        07 de outubro de 2026
+       </div>
+      </div>
+     </div>
+     <div class="event-item">
+      <svg aria-hidden="true" class="lucide lucide-clock3 lucide-clock-3" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <circle cx="12" cy="12" r="10">
+       </circle>
+       <path d="M12 6v6h4">
+       </path>
+      </svg>
+      <div>
+       <div class="event-label">
+        Horário
+       </div>
+       <div class="event-value">
+        13h às 17h · quarta-feira
+       </div>
+      </div>
+     </div>
+     <div class="event-item">
+      <svg aria-hidden="true" class="lucide lucide-map-pin" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+       </path>
+       <circle cx="12" cy="10" r="3">
+       </circle>
+      </svg>
+      <div>
+       <div class="event-label">
+        Onde
+       </div>
+       <div class="event-value">
+        Saguão de entrada · IFBA Camaçari
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="proposta">
+    <div class="container proposal-grid">
+     <div class="proposal-text">
+      <div class="eyebrow">
+       <span class="eyebrow-line">
+       </span>
+       A nossa proposta
+      </div>
+      <h2>
+       A ciência está mais perto
+       <br/>
+       do que você imagina.
+      </h2>
+      <p>
+       O que você vai descobrir no nosso estande? Partimos de uma pergunta do cotidiano: qual é a relação entre o mau hálito e o pH da boca?
+      </p>
+      <p>
+       Conectamos a Biologia e a Química para investigar como o ambiente da boca influencia a formação das substâncias responsáveis pelo mau odor. E vamos além: exploramos como a respiração ajuda a manter o equilíbrio do pH do sangue.
+      </p>
+      <div class="proposal-note">
+       <svg aria-hidden="true" class="lucide lucide-shield-check" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+        </path>
+        <path d="m9 12 2 2 4-4">
+        </path>
+       </svg>
+       <span>
+        Mau hálito não é só uma questão de pH.
+        <br/>
+        É uma combinação de fatores biológicos e químicos.
+       </span>
+      </div>
+     </div>
+     <div class="ph-tool">
+      <div class="tool-title">
+       <span>
+        UM OLHAR SOBRE O pH
+       </span>
+       <svg aria-hidden="true" class="lucide lucide-flask-conical" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2">
+        </path>
+        <path d="M6.453 15h11.094">
+        </path>
+        <path d="M8.5 2h7">
+        </path>
+       </svg>
+      </div>
+      <div aria-live="polite" class="ph-number">
+       7.0
+      </div>
+      <div class="ph-state">
+       Meio
+       <!-- -->
+       neutro
+      </div>
+      <input aria-label="Valor de pH" id="ph-slider" max="14" min="0" step="0.5" type="range" value="7"/>
+      <div class="ph-labels">
+       <span>
+        0 · Ácido
+       </span>
+       <span>
+        7 · Neutro
+       </span>
+       <span>
+        14 · Básico
+       </span>
+      </div>
+      <div class="ph-explanation">
+       Em condições usuais, pH 7 é neutro. A saliva ajuda a proteger a boca e a equilibrar seu ambiente químico.
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section science-section" id="ciencia">
+    <div class="container">
+     <div class="section-heading">
+      <div>
+       <div class="eyebrow">
+        <span class="eyebrow-line">
+        </span>
+        A ciência por trás
+       </div>
+       <h2>
+        Dois saberes. Um só corpo.
+       </h2>
+      </div>
+      <p>
+       Entenda a relação entre a Biologia e a Química nos sistemas que trabalham por você.
+      </p>
+     </div>
+     <div class="science-grid">
+      <article class="science-card">
+       <div class="science-icon">
+        <svg aria-hidden="true" class="lucide lucide-microscope" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M6 18h8">
+         </path>
+         <path d="M3 22h18">
+         </path>
+         <path d="M14 22a7 7 0 1 0 0-14h-1">
+         </path>
+         <path d="M9 14h2">
+         </path>
+         <path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z">
+         </path>
+         <path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3">
+         </path>
+        </svg>
+       </div>
+       <h3>
+        A boca e o sistema digestório
+       </h3>
+       <h4>
+        O olhar da Biologia
+       </h4>
+       <p>
+        A boca é a porta de entrada do sistema digestório e abriga diversos microrganismos. Algumas bactérias produzem compostos responsáveis pelo mau odor. A saliva ajuda a limpar e proteger esse ambiente.
+       </p>
+       <h4 class="chemistry">
+        O olhar da Química
+       </h4>
+       <p>
+        O pH indica se um meio é ácido, neutro ou básico. O ambiente químico da boca pode facilitar ou inibir a produção de compostos do mau hálito. A saliva contribui para o equilíbrio por meio de sistemas tampão.
+       </p>
+      </article>
+      <article class="science-card">
+       <div class="science-icon">
+        <svg aria-hidden="true" class="lucide lucide-wind" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M12.8 19.6A2 2 0 1 0 14 16H2">
+         </path>
+         <path d="M17.5 8a2.5 2.5 0 1 1 2 4H2">
+         </path>
+         <path d="M9.8 4.4A2 2 0 1 1 11 8H2">
+         </path>
+        </svg>
+       </div>
+       <h3>
+        A respiração e o sangue
+       </h3>
+       <h4>
+        O olhar da Biologia
+       </h4>
+       <p>
+        Pulmões, traqueia e diafragma trabalham juntos na respiração. O movimento do diafragma permite a entrada e a saída de ar, enquanto os pulmões realizam as trocas gasosas.
+       </p>
+       <h4 class="chemistry">
+        O olhar da Química
+       </h4>
+       <p>
+        A respiração controla a quantidade de CO₂ no sangue, participando do equilíbrio do sistema tampão bicarbonato. Esse mecanismo, junto à ação dos rins, ajuda a manter o pH sanguíneo estável.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="experimentos">
+    <div class="container">
+     <div class="section-heading">
+      <div>
+       <div class="eyebrow">
+        <span class="eyebrow-line">
+        </span>
+        Nossos experimentos
+       </div>
+       <h2>
+        Agora, é a sua vez de investigar.
+       </h2>
+      </div>
+      <div class="experiment-intro">
+       <svg aria-hidden="true" class="lucide lucide-clock3 lucide-clock-3" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="10">
+        </circle>
+        <path d="M12 6v6h4">
+        </path>
+       </svg>
+       Uma descoberta em até 10 minutos
+      </div>
+     </div>
+     <p class="section-lead">
+      No nosso estande, você não é apenas espectador. É parte da experiência.
+     </p>
+     <div class="steps">
+      <article class="step">
+       <div class="step-number">
+        0
+        <!-- -->
+        1
+        <!-- -->
+        /
+       </div>
+       <h3>
+        A pergunta
+       </h3>
+       <p>
+        O que causa o mau hálito? Nossa investigação começa com a sua curiosidade.
+       </p>
+      </article>
+      <article class="step">
+       <div class="step-number">
+        0
+        <!-- -->
+        2
+        <!-- -->
+        /
+       </div>
+       <h3>
+        O seu palpite
+       </h3>
+       <p>
+        Antes de medir, você registra: a amostra é ácida, neutra ou básica?
+       </p>
+      </article>
+      <article class="step">
+       <div class="step-number">
+        0
+        <!-- -->
+        3
+        <!-- -->
+        /
+       </div>
+       <h3>
+        O experimento
+       </h3>
+       <p>
+        Vamos medir juntos o pH da amostra e observar o resultado na prática.
+       </p>
+      </article>
+      <article class="step">
+       <div class="step-number">
+        0
+        <!-- -->
+        4
+        <!-- -->
+        /
+       </div>
+       <h3>
+        A descoberta
+       </h3>
+       <p>
+        Comparamos o pH real com seu palpite. Será que sua hipótese se confirmou?
+       </p>
+      </article>
+     </div>
+     <div class="conclusion">
+      <svg aria-hidden="true" class="lucide lucide-circle-check" fill="none" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg">
+       <circle cx="12" cy="12" r="10">
+       </circle>
+       <path d="m9 12 2 2 4-4">
+       </path>
+      </svg>
+      <span>
+       <strong>
+        Explicação e conclusão.
+       </strong>
+       Nossa equipe conecta o resultado aos fatores que influenciam o mau hálito no dia a dia.
+      </span>
+     </div>
+     <div class="extra-experiments">
+      <article class="extra-item">
+       <svg aria-hidden="true" class="lucide lucide-wind" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12.8 19.6A2 2 0 1 0 14 16H2">
+        </path>
+        <path d="M17.5 8a2.5 2.5 0 1 1 2 4H2">
+        </path>
+        <path d="M9.8 4.4A2 2 0 1 1 11 8H2">
+        </path>
+       </svg>
+       <div>
+        <h3>
+         Simulação do sistema respiratório
+        </h3>
+        <p>
+         Observe a ação do diafragma e descubra como os movimentos respiratórios fazem o ar entrar e sair dos pulmões.
+        </p>
+       </div>
+      </article>
+      <article class="extra-item">
+       <svg aria-hidden="true" class="lucide lucide-flask-conical" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2">
+        </path>
+        <path d="M6.453 15h11.094">
+        </path>
+        <path d="M8.5 2h7">
+        </path>
+       </svg>
+       <div>
+        <h3>
+         O Sopro Mágico
+        </h3>
+        <p>
+         Uma demonstração do efeito do CO₂ sobre uma solução e da relação entre a respiração e o equilíbrio ácido-base.
+        </p>
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section videos-section" id="videos">
+    <div class="container">
+     <div class="section-heading">
+      <div>
+       <div class="eyebrow">
+        <span class="eyebrow-line">
+        </span>
+        Para saber mais
+       </div>
+       <h2>
+        A curiosidade não termina aqui.
+       </h2>
+      </div>
+      <p>
+       Continue explorando a química e a biologia que acontecem dentro de você todos os dias.
+      </p>
+     </div>
+     <div class="video-grid">
+      <a class="video-item" href="https://www.youtube.com/results?search_query=como%20o%20pH%20afeta%20a%20sa%C3%BAde%20bucal%20e%20os%20dentes" rel="noopener noreferrer" target="_blank">
+       <div class="video-cover">
+        <svg aria-hidden="true" class="lucide lucide-heart-pulse" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5">
+         </path>
+         <path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27">
+         </path>
+        </svg>
+        <span class="video-play">
+         <svg aria-hidden="true" class="lucide lucide-play" fill="currentColor" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z">
+          </path>
+         </svg>
+        </span>
+       </div>
+       <div class="video-category">
+        Saúde bucal
+       </div>
+       <h3>
+        Como o pH afeta a saúde bucal e os dentes?
+       </h3>
+       <div class="video-link">
+        Explorar vídeos no YouTube
+        <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+         <path d="M7 7h10v10">
+         </path>
+         <path d="M7 17 17 7">
+         </path>
+        </svg>
+       </div>
+      </a>
+      <a class="video-item" href="https://www.youtube.com/results?search_query=o%20que%20%C3%A9%20solu%C3%A7%C3%A3o%20tamp%C3%A3o%20qu%C3%ADmica" rel="noopener noreferrer" target="_blank">
+       <div class="video-cover">
+        <svg aria-hidden="true" class="lucide lucide-beaker" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M4.5 3h15">
+         </path>
+         <path d="M6 3v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V3">
+         </path>
+         <path d="M6 14h12">
+         </path>
+        </svg>
+        <span class="video-play">
+         <svg aria-hidden="true" class="lucide lucide-play" fill="currentColor" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z">
+          </path>
+         </svg>
+        </span>
+       </div>
+       <div class="video-category">
+        Química em prática
+       </div>
+       <h3>
+        O que é uma solução tampão?
+       </h3>
+       <div class="video-link">
+        Explorar vídeos no YouTube
+        <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+         <path d="M7 7h10v10">
+         </path>
+         <path d="M7 17 17 7">
+         </path>
+        </svg>
+       </div>
+      </a>
+      <a class="video-item" href="https://www.youtube.com/results?search_query=anatomia%203D%20como%20funciona%20respira%C3%A7%C3%A3o" rel="noopener noreferrer" target="_blank">
+       <div class="video-cover">
+        <svg aria-hidden="true" class="lucide lucide-wind" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M12.8 19.6A2 2 0 1 0 14 16H2">
+         </path>
+         <path d="M17.5 8a2.5 2.5 0 1 1 2 4H2">
+         </path>
+         <path d="M9.8 4.4A2 2 0 1 1 11 8H2">
+         </path>
+        </svg>
+        <span class="video-play">
+         <svg aria-hidden="true" class="lucide lucide-play" fill="currentColor" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z">
+          </path>
+         </svg>
+        </span>
+       </div>
+       <div class="video-category">
+        Anatomia e Biologia
+       </div>
+       <h3>
+        Como funciona a nossa respiração?
+       </h3>
+       <div class="video-link">
+        Explorar vídeos no YouTube
+        <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+         <path d="M7 7h10v10">
+         </path>
+         <path d="M7 17 17 7">
+         </path>
+        </svg>
+       </div>
+      </a>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="equipe">
+    <div class="container">
+     <div class="team-top">
+      <div>
+       <div class="eyebrow">
+        <span class="eyebrow-line">
+        </span>
+        Quem faz acontecer
+       </div>
+       <h2>
+        Conhecimento construído juntos.
+       </h2>
+       <p>
+        Equipe investigativa do 3º ano · Trabalho Interdisciplinar Bio/Qui
+        <br/>
+        II Unidade · Instituto Federal da Bahia, Campus Camaçari
+       </p>
+      </div>
+      <div class="teachers">
+       <strong>
+        Professoras orientadoras
+       </strong>
+       <div class="teacher">
+        Ana Paula Miranda Guimarães
+        <span>
+         Biologia
+        </span>
+       </div>
+       <div class="teacher">
+        Luciene Santos Carvalho
+        <span>
+         Química
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="team-names">
+      <span>
+       Bruno Santana
+      </span>
+      <span>
+       Ivylle Elen
+      </span>
+      <span>
+       Lucas Gabriel
+      </span>
+      <span>
+       Grassiane
+      </span>
+      <span>
+       Fernanda
+      </span>
+      <span>
+       Deivid
+      </span>
+      <span>
+       Hebert
+      </span>
+      <span>
+       Joao Gabriel
+      </span>
+      <span>
+       Luis Gustavo
+      </span>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="container footer-inner">
+    <span>
+     © 2026 · Biologia + Química · IFBA Campus Camaçari
+    </span>
+    <span>
+     23ª Semana de Ciência e Tecnologia — Ciências Delas
+    </span>
+    <a href="#inicio">
+     Voltar ao início
+     <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+      <path d="M7 7h10v10">
+      </path>
+      <path d="M7 17 17 7">
+      </path>
+     </svg>
+    </a>
+   </div>
+  </footer>
+ </body>
+</html>
